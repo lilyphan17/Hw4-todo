@@ -1,0 +1,46 @@
+{% extends 'Todo/index.html' %}
+{% load static %}
+
+{% block title %}
+    <title>Update</title>
+{% endblock %}
+
+{% block style %}
+      <link rel="stylesheet" href="{% static 'css/todo.css' %}">
+{% endblock %}
+
+{% block body %}
+    <div class="card">
+        <div class="card-header" style="text-align: left">
+        Update Task
+        </div>
+    <div class="card-body" style="text-align: left">
+        <div class="container">
+         <div class="row" id="update">
+                <div class="col-10" >
+                    <p class="card-text">Task</p>
+                </div>
+                <div class="col-2" >
+                    <p class="card-text" style="text-align: center">Completed</p>
+                </div>
+         </div>
+        <form action="{{ task.id }}" method="post">
+            {% csrf_token %}
+            <div class="row" id="update">
+                <div class="col-10 pb-3" >
+                    <input type="text" name="task" class="form-control"  value="{{ task.task }}" aria-label="Recipient's username =" aria-describedby="button-addon2">
+                </div>
+                <div class="col-2 justify-content-md-center" style="text-align: center" id="box">
+                    <input type="checkbox" name="complete" id="id_complete">
+                </div>
+            </div>
+            <a href="{% url 'index' %}" class="btn btn-info"><- Go back</a>
+            <input type="submit" value ="Update" href="{% url 'index' %}" class="btn btn-primary">
+        </form>
+         </div>
+    </div>
+
+  </div>
+</div>
+
+{% endblock %}
