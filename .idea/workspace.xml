@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be5e4ffd-f921-4415-9bc8-316341d0cb98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangoProject1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject1/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/cat.jpeg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +115,7 @@
       <workItem from="1606252296164" duration="6345000" />
       <workItem from="1606270097766" duration="7101000" />
       <workItem from="1606327156556" duration="3387000" />
-      <workItem from="1606334090553" duration="344000" />
+      <workItem from="1606334090553" duration="2659000" />
     </task>
     <servers />
   </component>
@@ -143,26 +143,38 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="686" y="209" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1606254813342" />
-    <state width="1864" height="227" key="GridCell.Tab.0.bottom" timestamp="1606333999702">
+    <state x="1143" y="388" key="Github.ShareDialog" timestamp="1606336074340">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1864" height="227" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1606333999702" />
-    <state width="1864" height="227" key="GridCell.Tab.0.center" timestamp="1606333999702">
+    <state x="1143" y="388" key="Github.ShareDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1606336074340" />
+    <state width="1506" height="221" key="GridCell.Tab.0.bottom" timestamp="1606337157897">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1864" height="227" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1606333999702" />
-    <state width="1864" height="227" key="GridCell.Tab.0.left" timestamp="1606333999702">
+    <state width="1506" height="221" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1606337157897" />
+    <state width="1506" height="221" key="GridCell.Tab.0.center" timestamp="1606337157896">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1864" height="227" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1606333999702" />
-    <state width="1864" height="227" key="GridCell.Tab.0.right" timestamp="1606333999702">
+    <state width="1506" height="221" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1606337157896" />
+    <state width="1506" height="221" key="GridCell.Tab.0.left" timestamp="1606337157896">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1864" height="227" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1606333999702" />
+    <state width="1506" height="221" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1606337157896" />
+    <state width="1506" height="221" key="GridCell.Tab.0.right" timestamp="1606337157896">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1506" height="221" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1606337157896" />
     <state width="263" height="571" key="HiddenNamespacesPopup" timestamp="1606004270617">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="263" height="571" key="HiddenNamespacesPopup/0.0.1920.1032@0.0.1920.1032" timestamp="1606004270617" />
+    <state x="93" y="86" key="MergeDialog" timestamp="1606334423916">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="93" y="86" key="MergeDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1606334423916" />
+    <state x="794" y="215" key="MultipleFileMergeDialog" timestamp="1606334426632">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="794" y="215" key="MultipleFileMergeDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1606334426632" />
     <state x="451" y="181" key="Vcs.Push.Dialog.v2" timestamp="1606105378951">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
