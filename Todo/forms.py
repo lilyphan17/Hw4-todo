@@ -7,4 +7,3 @@ class TaskForm(forms.ModelForm):
     class Meta:
         model = Todo
         fields = '__all__'
-        #fields = ['task', 'complete']

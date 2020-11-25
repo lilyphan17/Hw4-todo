@@ -1,4 +1,5 @@
 from django.shortcuts import render, redirect
+from django.contrib import messages
 
 from .forms import TaskForm
 from .models import Todo
@@ -27,8 +28,8 @@ def update(request, task_id):
         if form.is_valid():
             q = form.cleaned_data  # Make a dictionary with cleaned data
             task.task = q['task']  # Updates the name of the task
-            task.complete = q['complete']  # Changes statue to selected value
-            task.complete = q['complete']  # Changes statue to selected value
+            task.completed = q['completed']  # Changes statue to selected value
+            task.completed = q['completed']  # Changes statue to selected value
             task.save()  # Saves changes to object
             return redirect('index')
     else:
@@ -39,8 +40,11 @@ def update(request, task_id):
 
 def delete(request, task_id):
     task = Todo.objects.get(pk=task_id)  # Gets the object with that ID
+
     if request.method == 'POST':
+        delete_message = task.task + " has been removed."
         task.delete()  # Delete the object
+        messages.info(request, delete_message)
         return redirect('index')
     else:
         context = {'task': task}  # Context for delete.html
@@ -49,6 +53,8 @@ def delete(request, task_id):
 
 def complete_task(request, task_id):
     task = Todo.objects.get(pk=task_id)  # Gets the object with that ID
-    task.complete = True  # Check complete status
+    update_message = task.task + " has been completed."
+    task.completed = True  # Check complete status
     task.save()  # Save the list
+    messages.info(request, update_message)
     return redirect('index')

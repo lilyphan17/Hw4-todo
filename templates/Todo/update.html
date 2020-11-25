@@ -11,10 +11,10 @@
 
 {% block body %}
     <div class="card">
-        <div class="card-header" style="text-align: left">
+        <div class="card-header" >
         Update Task
         </div>
-    <div class="card-body" style="text-align: left">
+    <div class="card-body" >
         <div class="container">
          <div class="row" id="update">
                 <div class="col-10" >
@@ -31,7 +31,11 @@
                     <input type="text" name="task" class="form-control"  value="{{ task.task }}" aria-label="Recipient's username =" aria-describedby="button-addon2">
                 </div>
                 <div class="col-2 justify-content-md-center" style="text-align: center" id="box">
-                    <input type="checkbox" name="complete" id="id_complete">
+                    {% if not task.completed %}
+                        <input type="checkbox" name="completed" id="id_complete">
+                    {% elif task.completed %}
+                        <input type="checkbox" name="completed" id="id_complete" checked>
+                    {% endif %}
                 </div>
             </div>
             <a href="{% url 'index' %}" class="btn btn-info"><- Go back</a>
@@ -39,8 +43,6 @@
         </form>
          </div>
     </div>
-
   </div>
 </div>
-
 {% endblock %}
