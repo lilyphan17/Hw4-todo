@@ -9,11 +9,11 @@ h1{
 h3, .card-header, .card-body{
     text-align: left;
 }
-#buttons{
+#buttons, #buttonsC{
     text-align: right;
 }
 @media all and (max-width: 767px){
-    #buttons{
+    #buttons, #buttonsC{
         text-align: left;
     }
 }
@@ -28,7 +28,7 @@ h3, .card-header, .card-body{
 #completed{
     background-color: #eeeeee;
 }
-#time{
+#time, #timeC{
     font-size: 0.7rem;
     color: gray;
 }
@@ -38,7 +38,7 @@ input[type='checkbox'] {
     border-radius:5px;
     border:2px solid #555;
 }
-#task{
+#task, #taskC{
     font-weight:bold;
 }
 

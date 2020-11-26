@@ -16,7 +16,7 @@
         </div>
     <div class="card-body" >
         <div class="container">
-         <div class="row" id="update">
+         <div class="row" >
                 <div class="col-10" >
                     <p class="card-text">Task</p>
                 </div>
@@ -26,9 +26,9 @@
          </div>
         <form action="{{ task.id }}" method="post">
             {% csrf_token %}
-            <div class="row" id="update">
+            <div class="row" >
                 <div class="col-10 pb-3" >
-                    <input type="text" name="task" class="form-control"  value="{{ task.task }}" aria-label="Recipient's username =" aria-describedby="button-addon2">
+                    <input type="text" name="task" class="form-control"  value="{{ task.task }}" aria-label="Recipient's username">
                 </div>
                 <div class="col-2 justify-content-md-center" style="text-align: center" id="box">
                     {% if not task.completed %}
@@ -38,11 +38,10 @@
                     {% endif %}
                 </div>
             </div>
-            <a href="{% url 'index' %}" class="btn btn-info"><- Go back</a>
-            <input type="submit" value ="Update" href="{% url 'index' %}" class="btn btn-primary">
+            <a href="{% url 'index' %}" class="btn btn-info">&lt;- Go back</a>
+            <button type="submit" class="btn btn-primary" >Update</button>
         </form>
          </div>
     </div>
   </div>
-</div>
 {% endblock %}

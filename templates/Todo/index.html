@@ -34,25 +34,25 @@
             {% if task.completed %}
                 <div class="row" id="completed">
                     <div class="col-md" style="text-align: left">
-                        <p><span id="task">{{ task.task }}</span> <br>
-                            <span id="time" >Created at: {{ task.created_at }}</span></p>
+                        <p><span id="taskC">{{ task.task }}</span><br>
+                            <span id="timeC" >Created at: {{ task.created_at }}</span></p>
                     </div>
-                    <div class="col-md" id="buttons">
-                        <a href="update/{{ task.id }}"><button class="btn btn-primary">Update</button></a>
-                        <a href="delete/{{ task.id }}"><button class="btn btn-danger">Delete</button></a>
+                    <div class="col-md" id="buttonsC">
+                        <a href="update/{{ task.id }}" class="btn btn-primary">Update</a>
+                        <a href="delete/{{ task.id }}" class="btn btn-danger">Delete</a>
                     </div>
                 </div>
             {% elif not task.completed %}
                 <div class="row" id="tasks">
                 <div class="col-md" style="text-align: left">
-                    <p><span id="task">{{ task.task }}</span> <br>
+                    <p><span id="task">{{ task.task }}</span><br>
                         <span id="time" >Created at: {{ task.created_at }}</span></p>
                 </div>
 
                 <div class="col-md" id="buttons" >
-                    <a href="complete_task/{{ task.id }}"><button class="btn btn-success">Completed</button></a>
-                    <a href="update/{{ task.id }}"><button class="btn btn-primary">Update</button></a>
-                    <a href="delete/{{ task.id }}"><button class="btn btn-danger">Delete</button></a>
+                    <a href="complete_task/{{ task.id }}" class="btn btn-success">Completed</a>
+                    <a href="update/{{ task.id }}" class="btn btn-primary">Update</a>
+                    <a href="delete/{{ task.id }}" class="btn btn-danger">Delete</a>
                 </div>
             </div>
             {% endif %}

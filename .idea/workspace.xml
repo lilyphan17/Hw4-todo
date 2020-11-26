@@ -23,6 +23,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangoProject1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject1/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/todo.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/todo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Todo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Todo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Todo/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Todo/update.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +57,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../projectHW4-main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -116,6 +119,9 @@
       <workItem from="1606270097766" duration="7101000" />
       <workItem from="1606327156556" duration="3387000" />
       <workItem from="1606334090553" duration="2659000" />
+      <workItem from="1606339913101" duration="602000" />
+      <workItem from="1606342865407" duration="2685000" />
+      <workItem from="1606354597824" duration="6314000" />
     </task>
     <servers />
   </component>
@@ -139,30 +145,30 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="409" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1605835890638" />
-    <state x="686" y="209" key="FileChooserDialogImpl" timestamp="1606254813342">
+    <state x="686" y="209" key="FileChooserDialogImpl" timestamp="1606350949575">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="686" y="209" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1606254813342" />
+    <state x="686" y="209" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1606350949575" />
     <state x="1143" y="388" key="Github.ShareDialog" timestamp="1606336074340">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="1143" y="388" key="Github.ShareDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1606336074340" />
-    <state width="1506" height="221" key="GridCell.Tab.0.bottom" timestamp="1606337157897">
+    <state width="1506" height="221" key="GridCell.Tab.0.bottom" timestamp="1606350953287">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1506" height="221" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1606337157897" />
-    <state width="1506" height="221" key="GridCell.Tab.0.center" timestamp="1606337157896">
+    <state width="1506" height="221" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1606350953287" />
+    <state width="1506" height="221" key="GridCell.Tab.0.center" timestamp="1606350953287">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1506" height="221" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1606337157896" />
-    <state width="1506" height="221" key="GridCell.Tab.0.left" timestamp="1606337157896">
+    <state width="1506" height="221" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1606350953287" />
+    <state width="1506" height="221" key="GridCell.Tab.0.left" timestamp="1606350953287">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1506" height="221" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1606337157896" />
-    <state width="1506" height="221" key="GridCell.Tab.0.right" timestamp="1606337157896">
+    <state width="1506" height="221" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1606350953287" />
+    <state width="1506" height="221" key="GridCell.Tab.0.right" timestamp="1606350953287">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1506" height="221" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1606337157896" />
+    <state width="1506" height="221" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1606350953287" />
     <state width="263" height="571" key="HiddenNamespacesPopup" timestamp="1606004270617">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
